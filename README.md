@@ -15,12 +15,18 @@ Contraintes :
 - les couleurs de la charte sont le bleu #0065FC, le bleu clair #DEEBFF et le gris #F2F2F2
 - la police du site est Raleway
 
+# frontend
 Initialiser le projet : 
-
 `npm init`
-
 puis
-
 `npm run start`
 
-Framework utilisé : React.js# sweet-holidays_032022
+Framework utilisé : React.js# 
+
+# sweet-holidays_032022
+
+Feuille de route de ce que j'ai fait :
+- création dossier backend
+- création dossier frontend
+
+dans le dossier front-end lancer `npx create-react-app [nom du dossier]`
