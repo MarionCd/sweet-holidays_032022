@@ -1,0 +1,67 @@
+/*************************| ABSTRACTS |*************************/
+/****************| Rappels |******************/
+/***************************| BASE |***************************/
+body {
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/*************************| LAYOUT |***************************/
+/*********************|   COMPONENTS   |**********************/
+header {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header img {
+  margin-top: 30px;
+}
+
+nav {
+  padding-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+}
+
+nav :nth-child(1) {
+  margin-right: 20px;
+}
+
+nav a::before {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  width: 100px;
+  height: 2px;
+  content: '';
+}
+
+nav a:hover:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition: -webkit-transform 2000ms;
+  transition: -webkit-transform 2000ms;
+  transition: transform 2000ms;
+  transition: transform 2000ms, -webkit-transform 2000ms;
+}
+
+/************************|    PAGES      |********************/
+/*# sourceMappingURL=main.css.map */

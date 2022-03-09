@@ -1,0 +1,27 @@
+/*************************| ABSTRACTS |*************************/
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+/***************************| BASE |***************************/
+@import "./base/global";
+
+/*************************| LAYOUT |***************************/
+
+@import "./layout/forms";
+
+/*********************|   COMPONENTS   |**********************/
+
+@import "../../components/ActivityCard/ActivityCard";
+@import "../../components/ActivityList/ActivityList";
+@import "../../components/Filters/Filters";
+@import "../../components/Footer/Footer";
+@import "../../components/Header/Header";
+@import "../../components/HebergementCard/HebergementCard";
+@import "../../components/HebergementList/HebergementList";
+@import "../../components/Navbar/Navbar";
+@import "../../components/PopulairesCard/PopulairesCard";
+@import "../../components/PopulairesList/PopulairesList";
+@import "../../components/SearchBar/SearchBar";
+@import "../../components/ToggleConnexion/ToggleConnexion"
+
+/************************|    PAGES      |********************/

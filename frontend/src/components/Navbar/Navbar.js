@@ -1,10 +1,13 @@
 import React from 'react';
+// import "./Navbar.scss"
 
 const Navbar = () => {
-    return ( 
-      <div></div>
-       
-    );   
-  };
+  return ( 
+    <nav>
+      <a href="#">Hébergements</a>
+      <a href="#">Activités</a>
+    </nav>     
+  );   
+};
   
-  export default Navbar;
+export default Navbar;

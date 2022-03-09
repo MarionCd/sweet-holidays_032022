@@ -29,4 +29,4 @@ Feuille de route de ce que j'ai fait :
 - création dossier backend
 - création dossier frontend
 
-dans le dossier front-end lancer `npx create-react-app [nom du dossier]`
+dans le dossier front-end exécuter `npx create-react-app [nom du dossier]`
