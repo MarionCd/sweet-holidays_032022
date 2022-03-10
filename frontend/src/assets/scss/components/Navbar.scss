@@ -1,0 +1,31 @@
+nav{
+    display:flex;
+    flex-direction:row;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    color: $primary-color;
+    width:165px;
+    text-align:center;
+}
+
+nav a:hover{
+    color:$secondary-color;
+}
+
+nav a::before{
+    transform:scaleX(0);
+    height:2px;
+    content:'';
+    width:100%;
+    display:block;
+    background-color:$secondary-color;
+    margin-bottom:40px;
+}
+
+nav a:hover:before{
+    transform:scaleX(1);
+    transition:transform 2000ms;
+}
